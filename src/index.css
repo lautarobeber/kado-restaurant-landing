@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  @apply bg-cream-100 text-charcoal font-body antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #cf9a42;
+  color: #171310;
+}
+
+/* Lenis smooth scroll helpers */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f6efe2;
+}
+::-webkit-scrollbar-thumb {
+  background: #cf9a42;
+  border-radius: 999px;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1.5px #cf9a42;
+  color: transparent;
+}
+
+.section-eyebrow {
+  @apply inline-flex items-center gap-3 font-body text-xs md:text-sm font-semibold uppercase tracking-widest2 text-gold;
+}
+
+.section-eyebrow::before {
+  content: '';
+  @apply h-px w-8 bg-gold;
+}
