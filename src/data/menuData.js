@@ -70,7 +70,7 @@ export const bentoDishes = [
     id: 'risotto',
     name: 'Risotto de hongos trufados',
     price: 24,
-    img: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?q=80&w=700&auto=format&fit=crop',
+    img: 'https://i.pinimg.com/1200x/25/43/6c/25436c4c6bb147a6f55aa231223fc835.jpg',
     span: 'row-span-2',
   },
   {
