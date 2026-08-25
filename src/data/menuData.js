@@ -98,7 +98,7 @@ export const bentoDishes = [
     id: 'ceviche',
     name: 'Ceviche de temporada',
     price: 21,
-    img: 'https://images.unsplash.com/photo-1615361200141-f45961202a9d?q=80&w=700&auto=format&fit=crop',
+    img: 'https://i.pinimg.com/736x/16/68/c6/1668c65d194efc39704b50c156e5f03b.jpg',
     span: '',
   },
 ]
